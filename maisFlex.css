@@ -1,0 +1,37 @@
+.flexContainer:last-child { margin-top: 2em; }
+body { margin: 0; padding: 0; }
+div { height: 50px; width: 50px; }
+div:nth-child(1) { background-color: red; width: 50px; height: 50px; }
+div:nth-child(2) { background-color: blue; }
+div:nth-child(3) { background-color: green; }
+div:nth-child(4) { background-color: yellow; }
+div:nth-child(5) { background-color: pink; }
+div:nth-child(6) { background-color: black; }
+div:nth-child(7) { background-color: orange; }
+div:nth-child(8) { background-color: silver; }
+/*fim do setup*/
+
+.flexContainer {
+	display: flex;
+	/*justify-content: space-around;
+	align-items: center;
+	flex-direction: column;*/
+}
+
+.flexItem {
+	/*flex: 0 1 25%;*/
+	flex: 0 1 200px;
+}
+
+.primeiro {
+	/*flex-grow: 3;*/
+	/*flex-shrink: 2;*/
+}
+
+/*100 / 5 = 20*/
+
+
+
+
+
+
